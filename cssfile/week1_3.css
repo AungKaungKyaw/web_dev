@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #777;
+    font-family: Raleway;
+}
+
+.main-header{
+    background-image: url("../img/img4.jpg");
+    background-size: cover;
+
+}
+.nav ul{
+    margin: 0;
+    padding: 10px;
+}
+.nav a{
+    padding: 0.5em;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.nav a:hover{
+    color: black;
+    background-color: white;
+    transition: 0.3s;
+}
+.nav li{
+    display: inline;
+}
+.nav {
+    text-align: center;
+    font-size: 1.1em;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+.main-title{
+    font-family: "Agency FB";
+    font-size: 50px;
+    text-align: center;
+
+}
+.header-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.header-button button{
+    font-size: 30px;
+    padding: 10px;
+    background: lightblue;
+    border: 1px solid lightblue;
+}
+.content-section{
+    margin: 1em;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+

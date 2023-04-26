@@ -1,0 +1,11 @@
+.unchecked{
+    color: black;
+    font-size: 30px;
+}
+.checked{
+    color:tomato;
+    font-size: 30px;
+}
+.h1_clas{
+    color: skyblue;
+}

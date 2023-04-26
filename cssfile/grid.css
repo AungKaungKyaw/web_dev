@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.grid-container{
+    display: grid;
+    /*grid-template-columns: repeat(4,1fr);*/
+    grid-template-columns: repeat(4,auto);
+    grid-auto-rows: minmax(150px, auto);
+    margin: 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+.grid-item{
+    background-color: #6457A6;
+    border: 1px solid #7D7ABC;
+    border-radius: 5px;
+    /*margin: 20px;*/
+}
+.card-title{
+    padding: 0.4em;
+}
+.card-text{
+    padding: 0.4em;
+}
