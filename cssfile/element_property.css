@@ -1,4 +1,9 @@
-.heading_1{
+.style_h1{
     background-color: #7D7ABC;
     margin: 0 auto;
+}
+/*text hover and show the rest (inner.Text, inner.Html)*/
+.hover-text {
+    cursor: pointer;
+    text-decoration: underline;
 }

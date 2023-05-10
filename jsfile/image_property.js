@@ -14,3 +14,18 @@ function change_background2() {
 function change_background2_origin(){
     document.querySelector('.heading_4').style.backgroundColor = "#7D7ABC"
 }
+
+// text hover and show the rest (inner.Text, inner.Html)
+const hoverText = document.querySelector('.hover-text');
+const fullText = document.querySelector('p').textContent;
+let index = 0;
+
+hoverText.addEventListener('mouseover', () => {
+    const interval = setInterval(() => {
+        hoverText.textContent += fullText[index];
+        index++;
+        if (index >= fullText.length) {
+            clearInterval(interval);
+        }
+    }, 50);
+});

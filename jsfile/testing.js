@@ -24,6 +24,33 @@ num.forEach(thisone_btn=>{
     })
 })
 
+////////////////////////////////////////
+
+const todo = document.getElementById('user_input');
+console.log("hel");
+const todo_text = todo.value;
+function add_todo() {
+    if (todo_text ===''){
+        alert("enter something");
+        return;
+    }
+    console.log("after return")
+}
+const btn = document.getElementById('add');
+btn.addEventListener('click',add_todo);
+
+//////////////////////// dataset ///////////////////////
+const myDiv = document.getElementById("myDiv");
+const color = myDiv.dataset.color; // "red"
+const size = myDiv.dataset.size; // "large"
+console.log(color)
+console.log(size)
+
+//////////////////////////closest////////////////////////
+const item2 = document.querySelector('li:nth-child(2)');
+const ul = item2.closest('ul');
+console.log(ul); // <ul>...</ul>
+
 
 
 

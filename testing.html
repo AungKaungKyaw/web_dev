@@ -27,6 +27,45 @@
     <button class="btn2">4</button>
 </section>
 
+<!-- testing 2 -->
+<br><br>
+<section>
+    <h2>testing2</h2>
+
+    <input type="text" id="user_input">
+    <button id="add">submit</button>
+</section>
+
+<!-- dataset testing-->
+<br><br>
+
+<section>
+    <div id="myDiv" data-color="red" data-size="large">Hello, world!</div>
+</section>
+
+<!-- closet -->
+<section>
+    <h1>The Element Object</h1>
+    <h2>The closest() Method</h2>
+
+    <div class="demo"> Grandparent
+        <div class="demo container">Parent
+            <div id="myElement" class="demo">The parent of this div element will be selected.</div>
+        </div>
+    </div>
+
+    <script>
+        const element = document.getElementById("myElement");
+        const closest = element.closest(".container");
+
+        if (closest) {
+            closest.style.border = "4px solid black";
+        }
+    </script>
+</section>
+
+
+
 <script src="jsfile/testing.js">
 
 </script>
